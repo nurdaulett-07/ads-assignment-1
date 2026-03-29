@@ -51,25 +51,25 @@ public class RecursionAssignment {
         java.util.Scanner sc = new java.util.Scanner(System.in);
 
         //Task 1 test
-        System.out.println("=== Task 1: Sum of Squares ===");
+        System.out.println(" Task 1: Sum of Squares ");
         int n = 4;
         int result1 = sumOfSquares(n);
         System.out.println("Sum of squares for n=" + n + ": " + result1);
 
         //Task 2 test
-        System.out.println("\n=== Task 2: Sum of Array ===");
+        System.out.println("\n Task 2: Sum of Array ");
         int[] arr = {3, 1, 4, 1, 5};
         int result2 = sumOfArray(arr, arr.length);
         System.out.println("Sum of array elements: " + result2);
 
         //Task 3 test
-        System.out.println("\n=== Task 3: Sum of Powers ===");
+        System.out.println("\nTask 3: Sum of Powers");
         int b = 4, power = 3;
         double result3 = sumOfPowers(b, power);
         System.out.println("Sum of powers b=" + b + ", n=" + power + ": " + result3);
 
         // Task 4 test
-        System.out.println("\n=== Task 4: Reverse Print ===");
+        System.out.println("\n Task 4: Reverse Print ");
         System.out.println("Enter N:");
         int count = sc.nextInt();
         System.out.println("Enter " + count + " numbers:");
